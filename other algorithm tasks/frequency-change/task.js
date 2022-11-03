@@ -14,3 +14,4 @@ const finalResult = (testCase) => {
 
 console.log(finalResult(testCase))
 
+// TESTS PASSED
