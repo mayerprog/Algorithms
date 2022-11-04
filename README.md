@@ -1,1 +1,1 @@
-algorithms tasks I solved so far 
+algorithm tasks I solved so far 
