@@ -5,7 +5,7 @@ let testCase = data.split('\n').map(item => item.split(' '))
 
 const compareWords = (arr) => {
     let setForCompare = new Set()
-    let isAnagram
+    let isAnagram = false
     for(let i = 0; i < arr.length; i++) {
         if (setForCompare.has(arr[i])) {
             isAnagram = true
@@ -13,10 +13,8 @@ const compareWords = (arr) => {
         } 
         else {
             setForCompare.add(arr[i])
-            isAnagram = false
         }
     }
-
     return isAnagram
 }
 
@@ -31,10 +29,8 @@ const findPassword = (testCase) => {
                 noAnagrams.push(sortedWords)
                 break
             } 
-            else break
         }
     }
-
     return noAnagrams.length
 }
 
