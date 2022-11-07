@@ -11,9 +11,7 @@ const compareWords = (arr) => {
             isAnagram = true
             break
         } 
-        else {
-            setForCompare.add(arr[i])
-        }
+        setForCompare.add(arr[i])
     }
     return isAnagram
 }
