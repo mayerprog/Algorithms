@@ -10,5 +10,6 @@ const findUnbroken = (testCase) => {
         }
     }
 }
+//not solved yet
 
 console.log(findUnbroken(['qjhvhtzxzqqjkmpb']))
